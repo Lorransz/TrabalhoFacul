@@ -12,8 +12,6 @@ public class temperatura {
         SimpleDateFormat sfd = new SimpleDateFormat("HH:mm");
         Calendar hora = Calendar.getInstance();
         String horaFormatada = sfd.format(hora);
-        //Int Random
-        Random gerador = new Random();
             //Declaração  da Matriz       
             int temp[][] = new int[48][2];
             //Número Random
