@@ -16,7 +16,7 @@ public class temperatura {
             int temp[][] = new int[48][2];
             //Número Random
             Random numeroRandom = new Random ();
-                for (int i=0; i<temperatura.length; i++) {
+                for (int i=0; i<temperatu.length; i++) {
                 for (int j= 0; j<tempo.length; j++) {
                 numeroRandom[i] = temp.nextInt(100);
 
