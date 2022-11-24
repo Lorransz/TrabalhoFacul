@@ -17,7 +17,7 @@ public class temperatura {
         for (int i = 0; i < 100; i++) {
             System.out.println(gerador.nextInt());
             //Declaração  da Matriz       
-            double temp[][] = new double[48][2];
+            int temp[][] = new int[48][2];
             
             for (int tempe = 0; tempe < temp.length; tempe++) {
                 String entrada = JOptionPane.showInputDialog(null, "Digite a temperatura: ");
