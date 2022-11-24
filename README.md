@@ -16,8 +16,7 @@ public class temperatura {
             int temp[][] = new int[48][2];
             //Número Random
             Random numeroRandom = new Random ();
-              //System.out.println("A tempereratura é: " + numeroRadom.nextInt(100));
-            for (int i=0; i<numeroRadom.length; i++) {
+                for (int i=0; i<numeroRadom.length; i++) {
                 for (int j= 0; j<numeroRadom[i].length; j++) {
 
                 }
