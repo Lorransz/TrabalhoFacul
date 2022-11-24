@@ -14,16 +14,16 @@ public class temperatura {
         String horaFormatada = sfd.format(hora);
         //Int Random
         Random gerador = new Random();
-        for (int i = 0; i < 100; i++) {
-            System.out.println(gerador.nextInt());
             //Declaração  da Matriz       
             int temp[][] = new int[48][2];
-            for (int tempe = 0; tempe < temp.length; tempe++) {
-                String entrada = JOptionPane.showInputDialog(null, "Digite a temperatura: ");
-                for (int tempo = 0; tempo < temp.length; tempo++) {
+            //Número Random
+            Random numeroRandom = new Random ();
+            for (int i=0; i<temp.length; i++) {
+            entrada = JOptionPane.showInputDialog(null, "Digite a temperatura: ");
+                for (int j= 0; j < temp.length; j++) {
                     entrada = JOptionPane.showInputDialog(null, "Digite o tempo da leitura: ");
                     double ent = Double.parseDouble(entrada);
-                    temp[tempe][tempo] = ent;
+                    temp[i][j] = ent;
 
                 }
 
@@ -35,9 +35,9 @@ public class temperatura {
                 for (tempo = 0; tempo < temp.length; tempo++) {
                     JOptionPane.showMessageDialog(null, "Tempo atual: " + temp[tempe][tempo]);
 
-                }
-            }
-        }
+               }
+           }
+       }
 
-    }
-}
+ }
+
