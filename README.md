@@ -16,12 +16,13 @@ public class temperatura {
             int temp[][] = new int[48][2];
             //Número Random
             Random numeroRandom = new Random ();
-            for (int i=0; i<temp.length; i++) {
-            entrada = JOptionPane.showInputDialog(null, "Digite a temperatura: ");
+              System.out.println("A tempereratura é: " + numeroRadom.nextInt(100));
+            //for (int i=0; i<temp.length; i++) {
+            //entrada = JOptionPane.showInputDialog(null, "Digite a temperatura: ");
                 for (int j= 0; j < temp.length; j++) {
-                    entrada = JOptionPane.showInputDialog(null, "Digite o tempo inicial: ");
-                    double ent = Double.parseDouble(entrada);
-                    temp[i][j] = ent;
+                    //entrada = JOptionPane.showInputDialog(null, "Digite o tempo inicial: ");
+                    //double ent = Double.parseDouble(entrada);
+                    //temp[i][j] = ent;
 
                 }
 
