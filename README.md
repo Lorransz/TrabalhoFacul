@@ -21,7 +21,7 @@ public class temperatura {
             for (int i=0; i<temp.length; i++) {
             entrada = JOptionPane.showInputDialog(null, "Digite a temperatura: ");
                 for (int j= 0; j < temp.length; j++) {
-                    entrada = JOptionPane.showInputDialog(null, "Digite o tempo da leitura: ");
+                    entrada = JOptionPane.showInputDialog(null, "Digite o tempo inicial: ");
                     double ent = Double.parseDouble(entrada);
                     temp[i][j] = ent;
 
