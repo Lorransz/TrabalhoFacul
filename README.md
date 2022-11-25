@@ -1,16 +1,11 @@
 package exercicio;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Random;
-import javax.swing.JOptionPane;
-
 public class Sensores {
 
     class Temperatura {
 
     //Inicando a Matriz
-    private double[] dados_temperatura;
+    private double[][] dados_temperatura;
     
     //Inserindo dados na matriz
     public Temperatura() {
@@ -18,7 +13,16 @@ public class Sensores {
     }
     
     public void adicionar_dados(double momento_leitura, double valor_leitura) {
-    \\Adicionar num
+
+    \\Adicionar os dados na matriz
+    for(int nomento_leitura = 0; momento_leitura<dados_temperatura.length; momento_leitura++) {
+
+    }
+    for(int valor_leitura = 0;  valor_leitura<dados_temperatura.length; valor_leitura++) {
+
+    }
+
+
     }
         
     }
