@@ -24,11 +24,28 @@ public class Sensores {
 
 
     }
+    
+    public void imprimir_dados(){
+        
+        System.out.println("");
+        //n.medição: hora - valor
+    }
         
     }
 
     class Umidade {
-
+         //Inicando a Matriz
+        private double[][] dados_Umidade;
+        
+        //Inserindo dados na matriz
+        public Umidade() {
+        double dados_Umidade[][] = new double [48[2];
+        }
+        
+        public void adicionar_dados(double momento_leitura, double valor_leitura) {
+         \\Adicionar os dados na matriz   
+        }
+        
     }
 
     class Quantidade_CO2 {
